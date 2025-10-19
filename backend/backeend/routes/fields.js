@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Field = require('../models/Field');
+const Field = require('../models/field');
 const auth = require('../middleware/auth');
 
 // CREATE
